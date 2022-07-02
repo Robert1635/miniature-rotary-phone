@@ -1,0 +1,816 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:kelp"
+    },
+    "title": "昆バイン",
+    "description": "昆布を根こそぎ5000本...",
+    "frame": "challenge"
+  },
+  "parent": "tazki:7-3_kelp",
+  "criteria": {
+    "kelp_1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":100
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_2": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":200
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_3": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":300
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_4": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":400
+              }  
+            }
+          }
+        ]
+      }
+    },
+    "kelp_5": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":500
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_6": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":600
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_7": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+              "min":700
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_8": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":800
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_9": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":900
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_10": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":1000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_11": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":1100
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_12": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":1200
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_13": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":1300
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_14": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":1400
+              }  
+            }
+          }
+        ]
+      }
+    },
+    "kelp_15": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":1500
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_16": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":1600
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_17": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+              "min":1700
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_18": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":1800
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_19": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":1900
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_20": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":2000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_21": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":2100
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_22": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":2200
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_23": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":2300
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_24": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":2400
+              }  
+            }
+          }
+        ]
+      }
+    },
+    "kelp_25": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":2500
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_26": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":2600
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_27": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+              "min":2700
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_28": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":2800
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_29": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":2900
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_30": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":3000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_31": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":3100
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_32": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":3200
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_33": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":3300
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_34": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":3400
+              }  
+            }
+          }
+        ]
+      }
+    },
+    "kelp_35": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":3500
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_36": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":3600
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_37": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+              "min":3700
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_38": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":3800
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_39": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":3900
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_40": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":4000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_41": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":4100
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_42": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":4200
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_43": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":4300
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_44": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":4400
+              }  
+            }
+          }
+        ]
+      }
+    },
+    "kelp_45": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":4500
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_46": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":4600
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_47": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+              "min":4700
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_48": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":4800
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_49": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":4900
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_50": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": {
+                "min":5000
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 6000
+  }
+}
