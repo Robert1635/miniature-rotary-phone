@@ -1,0 +1,156 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:kelp"
+    },
+    "title": "海女チュア",
+    "description": "昆布を根こそぎ10本...",
+    "frame": "challenge"
+  },
+  "parent": "tazki:root",
+  "criteria": {
+    "kelp_1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": 1
+            }
+          }
+        ]
+      }
+    },
+    "kelp_2": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": 2
+            }
+          }
+        ]
+      }
+    },
+    "kelp_3": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": 3
+            }
+          }
+        ]
+      }
+    },
+    "kelp_4": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": 4
+            }
+          }
+        ]
+      }
+    },
+    "kelp_5": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": 5
+            }
+          }
+        ]
+      }
+    },
+    "kelp_6": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": 6
+            }
+          }
+        ]
+      }
+    },
+    "kelp_7": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": 7
+            }
+          }
+        ]
+      }
+    },
+    "kelp_8": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": 8
+            }
+          }
+        ]
+      }
+    },
+    "kelp_9": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": 9
+            }
+          }
+        ]
+      }
+    },
+    "kelp_10": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_mine_count": 10
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1500
+  }
+}

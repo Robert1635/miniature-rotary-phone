@@ -1,0 +1,26 @@
+{
+  "display": {
+    "title": "にあ、僕の勝ちだ",
+    "description": "鯖主を...",
+    "frame": "challenge",
+    "icon": {
+      "item": "player_head",
+      "nbt": "{SkullOwner: 'tazkiiiii'}"
+    }
+  },
+  "parent": "tazki:2-1_hurt_tazki",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:player",
+          "nbt": "{UUID:[I; 1499432400, -105035722, -1967375104, 297725393]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1500
+  }
+}

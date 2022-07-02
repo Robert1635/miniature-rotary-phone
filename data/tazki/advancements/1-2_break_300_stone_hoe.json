@@ -1,0 +1,589 @@
+{
+  "display": {
+    "title": "きみとぼくとでヤンマーだ",
+    "description": "石のクワを300個...",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "icon": {
+      "item": "minecraft:stone_hoe"
+    }
+  },
+  "parent": "tazki:1_300",
+  "rewards": {
+    "experience": 3000
+  },
+  "criteria": {
+    "10": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:stone_hoe",
+                "value": {
+                  "min": 10
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "20": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:stone_hoe",
+                "value": {
+                  "min": 20
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "30": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:stone_hoe",
+                "value": {
+                  "min": 30
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "40": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:stone_hoe",
+                "value": {
+                  "min": 40
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "50": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:stone_hoe",
+                "value": {
+                  "min": 50
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "60": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:stone_hoe",
+                "value": {
+                  "min": 60
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "70": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:stone_hoe",
+                "value": {
+                  "min": 70
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "80": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:stone_hoe",
+                "value": {
+                  "min": 80
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "90": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:stone_hoe",
+                "value": {
+                  "min": 90
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "100": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:stone_hoe",
+                "value": {
+                  "min": 100
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "110": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:stone_hoe",
+                "value": {
+                  "min": 110
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "120": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:stone_hoe",
+                "value": {
+                  "min": 120
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "130": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:stone_hoe",
+                "value": {
+                  "min": 130
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "140": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:stone_hoe",
+                "value": {
+                  "min": 140
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "150": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:stone_hoe",
+                "value": {
+                  "min": 150
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "160": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:stone_hoe",
+                "value": {
+                  "min": 160
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "170": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:stone_hoe",
+                "value": {
+                  "min": 170
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "180": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:stone_hoe",
+                "value": {
+                  "min": 180
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "190": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:stone_hoe",
+                "value": {
+                  "min": 190
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "200": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:stone_hoe",
+                "value": {
+                  "min": 200
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "210": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:stone_hoe",
+                "value": {
+                  "min": 210
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "220": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:stone_hoe",
+                "value": {
+                  "min": 220
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "230": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:stone_hoe",
+                "value": {
+                  "min": 230
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "240": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:stone_hoe",
+                "value": {
+                  "min": 240
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "250": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:stone_hoe",
+                "value": {
+                  "min": 250
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "260": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:stone_hoe",
+                "value": {
+                  "min": 260
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "270": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:stone_hoe",
+                "value": {
+                  "min": 270
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "280": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:stone_hoe",
+                "value": {
+                  "min": 280
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "290": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:stone_hoe",
+                "value": {
+                  "min": 290
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "300": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:stone_hoe",
+                "value": {
+                  "min": 300
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
+

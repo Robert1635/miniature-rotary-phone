@@ -1,0 +1,1 @@
+tellraw @s [{"text":"新しく"},{"text":"【鯖主からの挑戦状】","color":"green","bold":true},{"text":"の進捗タブが解放されました!\n"},{"text":"【進捗メニュー】","color":"aqua","bold":true},{"text":"を確認して、"},{"text":"たつき鯖","color":"green","bold":true},{"text":"しかない進捗を達成しよう!!"}]

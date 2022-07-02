@@ -1,0 +1,19 @@
+{
+  "display": {
+    "title": "春や昔 15万石の 城下かな",
+    "description": "松山城を築城せよ",
+    "frame": "challenge",
+    "icon": {
+      "item": "diamond_axe"
+    }
+  },
+  "parent": "tazki:3-1_yamato",
+  "criteria": {
+    "a": {
+      "trigger": "impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1500
+  }
+}

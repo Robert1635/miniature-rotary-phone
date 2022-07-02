@@ -1,0 +1,21 @@
+{
+  "display": {
+    "title": "大量消費",
+    "description": "ツールを大量に使い切ろう!",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "icon": {
+      "item": "stone_pickaxe"
+    }
+  },
+  "parent": "tazki:root",
+  "rewards": {
+  },
+  "criteria": {
+    "a": {
+      "trigger": "impossible"
+    }
+  }
+}
+

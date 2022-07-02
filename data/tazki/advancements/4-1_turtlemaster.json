@@ -1,0 +1,23 @@
+{
+  "display": {
+    "title": "はい、タートルマスター!!!",
+    "description": "お願いマッスル()",
+    "frame": "challenge",
+    "icon": {
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:turtle_master\"}"
+    }
+  },
+  "parent": "tazki:root",
+  "criteria": {
+    "useTurtleMaster": {
+      "trigger": "minecraft:brewed_potion",
+      "conditions": {
+        "potion": "minecraft:turtle_master"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1500
+  }
+}

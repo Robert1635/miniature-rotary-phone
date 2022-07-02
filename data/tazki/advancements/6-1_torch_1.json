@@ -1,0 +1,26 @@
+{
+  "display": {
+    "title": "ルーモス!光よ!",
+    "description": "松明を1本、、、",
+    "frame": "challenge",
+    "icon": {
+      "item": "minecraft:torch"
+    }
+  },
+  "parent": "tazki:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:torch"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1500
+  }
+}

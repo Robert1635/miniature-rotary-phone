@@ -1,0 +1,151 @@
+{
+    "display": {
+      "title": "何に駆られてそこまで",
+      "description": "ウォーデンを7体...",
+      "frame": "challenge",
+      "icon": {
+        "item": "minecraft:sculk_shrieker"
+      }
+    },
+    "parent": "tazki:5-1-1-1-1-1_warden_6",
+    "rewards": {
+      "experience": 400000,
+      "function": "tazki:give700diamond"
+    },
+    "criteria": {
+      "1": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "type_specific": {
+              "type": "player",
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:warden",
+                  "value": {
+                    "min": 1
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "2": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "type_specific": {
+              "type": "player",
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:warden",
+                  "value": {
+                    "min": 2
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "3": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "type_specific": {
+              "type": "player",
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:warden",
+                  "value": {
+                    "min": 3
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "4": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "type_specific": {
+              "type": "player",
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:warden",
+                  "value": {
+                    "min": 4
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "5": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "type_specific": {
+              "type": "player",
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:warden",
+                  "value": {
+                    "min": 5
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "6": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "type_specific": {
+              "type": "player",
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:warden",
+                  "value": {
+                    "min": 6
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "7": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": {
+            "type_specific": {
+              "type": "player",
+              "stats": [
+                {
+                  "type": "minecraft:killed",
+                  "stat": "minecraft:warden",
+                  "value": {
+                    "min": 7
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+  

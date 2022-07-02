@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "player_head",
+      "nbt": "{SkullOwner: 'tazkiiiii'}"
+    },
+    "title": "鯖主からの挑戦状",
+    "description": "たつき鯖にしかない進捗を達成しよう!",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "background": "minecraft:textures/block/emerald_block.png"
+  },
+  "rewards": {
+    "function": "tazki:root",
+    "function": "tazki:300"
+  },
+  "criteria": {
+    "a": {
+      "trigger": "impossible"
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "display": {
+    "title": "逃げることが最良の手段であり倒すことは不可能に近い天災を超えた天才",
+    "description": "ウォーデンを1体...",
+    "frame": "challenge",
+    "icon": {
+      "item": "minecraft:sculk_shrieker"
+    }
+  },
+  "parent": "tazki:root",
+  "rewards": {
+    "experience": 20000
+  },
+  "criteria": {
+    "10": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:killed",
+                "stat": "minecraft:warden",
+                "value": {
+                  "min": 1
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

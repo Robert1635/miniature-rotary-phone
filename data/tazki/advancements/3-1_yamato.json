@@ -1,0 +1,19 @@
+{
+  "display": {
+    "title": "SOS地球!! 甦れ宇宙戦艦ヤマト",
+    "description": "宇宙戦艦ヤマトを建造せよ",
+    "frame": "challenge",
+    "icon": {
+      "item": "diamond_pickaxe"
+    }
+  },
+  "parent": "tazki:root",
+  "criteria": {
+    "a": {
+      "trigger": "impossible"
+    }
+  },
+  "rewards": {
+    "experience": 1500
+  }
+}
