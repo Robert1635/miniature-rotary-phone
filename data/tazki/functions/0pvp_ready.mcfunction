@@ -1,5 +1,3 @@
-scoreboard players set phantom_of_the_tazkisaba pvp 1
-
 bossbar add pvp_01 "pvp"
 bossbar add pvp_02 "pvp"
 bossbar add pvp_03 "pvp"
@@ -56,7 +54,7 @@ scoreboard objectives add pvp_08 dummy
 scoreboard objectives add pvp_09 dummy
 scoreboard objectives add pvp_10 dummy
 
-
+scoreboard objectives add Surivivor dummy
 
 
 #bossbar set pvp_01 

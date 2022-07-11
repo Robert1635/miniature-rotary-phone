@@ -1,3 +1,5 @@
+execute as @a[tag=pvp_fighter] run tag @s add surivivor
+
 execute as @a[tag=pvp_fighter] unless entity @a[tag=pvp01] run tag @s add pvp01
 execute if entity @a[tag=pvp01] run tag @a[tag=pvp01] remove pvp_fighter
 

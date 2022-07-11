@@ -34,4 +34,6 @@ tag @a remove pvp10
 
 tag @a remove pvp_fighter
 
+scoreboard objectives remove Surivivor
+
 scoreboard players set phantom_of_the_tazkisaba pvp 0
