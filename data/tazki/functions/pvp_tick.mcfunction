@@ -69,7 +69,18 @@ execute if score @a[tag=pvp10,limit=1] pvp_10 matches ..0 run tag @a[tag=pvp10,l
 
 execute store result score phantom_of_the_tazkisaba Surivivor if entity @a[tag=surivivor]
 
-execute if score phantom_of_the_tazkisaba Surivivor matches 1 run scoreboard players add @a[tag=surivivor,limit=1] pvp_won_count 1
+execute if score phantom_of_the_tazkisaba Surivivor matches 1 if score phantom_of_the_tazkisaba pvp matches 1 run scoreboard players add @a[tag=surivivor,limit=1] pvp_won_count 1
+
+execute if score phantom_of_the_tazkisaba Surivivor matches 1 if score phantom_of_the_tazkisaba pvp matches 1 run bossbar set pvp_01 visible false
+execute if score phantom_of_the_tazkisaba Surivivor matches 1 if score phantom_of_the_tazkisaba pvp matches 1 run bossbar set pvp_02 visible false
+execute if score phantom_of_the_tazkisaba Surivivor matches 1 if score phantom_of_the_tazkisaba pvp matches 1 run bossbar set pvp_03 visible false
+execute if score phantom_of_the_tazkisaba Surivivor matches 1 if score phantom_of_the_tazkisaba pvp matches 1 run bossbar set pvp_04 visible false
+execute if score phantom_of_the_tazkisaba Surivivor matches 1 if score phantom_of_the_tazkisaba pvp matches 1 run bossbar set pvp_05 visible false
+execute if score phantom_of_the_tazkisaba Surivivor matches 1 if score phantom_of_the_tazkisaba pvp matches 1 run bossbar set pvp_06 visible false
+execute if score phantom_of_the_tazkisaba Surivivor matches 1 if score phantom_of_the_tazkisaba pvp matches 1 run bossbar set pvp_07 visible false
+execute if score phantom_of_the_tazkisaba Surivivor matches 1 if score phantom_of_the_tazkisaba pvp matches 1 run bossbar set pvp_08 visible false
+execute if score phantom_of_the_tazkisaba Surivivor matches 1 if score phantom_of_the_tazkisaba pvp matches 1 run bossbar set pvp_09 visible false
+execute if score phantom_of_the_tazkisaba Surivivor matches 1 if score phantom_of_the_tazkisaba pvp matches 1 run bossbar set pvp_10 visible false
 
 execute if score phantom_of_the_tazkisaba Surivivor matches 1 run tag @a remove pvp01
 execute if score phantom_of_the_tazkisaba Surivivor matches 1 run tag @a remove pvp02
