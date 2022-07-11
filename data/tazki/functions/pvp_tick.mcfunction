@@ -1,3 +1,6 @@
+
+execute if entity @a[tag=pvp_fighter] run function tazki:pvp_fighter_sort
+
 execute store result score @a[tag=pvp01] pvp_01 run data get entity @a[tag=pvp01,limit=1] Health
 execute store result score @a[tag=pvp02] pvp_02 run data get entity @a[tag=pvp02,limit=1] Health
 execute store result score @a[tag=pvp03] pvp_03 run data get entity @a[tag=pvp03,limit=1] Health
@@ -63,7 +66,6 @@ execute if score @a[tag=pvp10,limit=1] pvp_10 matches ..0 run tag @a[tag=pvp10,l
 execute if score @a[tag=pvp10,limit=1] pvp_10 matches ..0 run tag @a[tag=pvp10,limit=1] remove pvp10
 
 
-execute if entity @a[tag=pvp_fighter] run function tazki:pvp_fighter_sort
 
 execute store result score phantom_of_the_tazkisaba Surivivor if entity @a[tag=surivivor]
 

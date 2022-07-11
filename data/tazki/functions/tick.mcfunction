@@ -4,8 +4,6 @@ execute if score phantom_of_the_tazkisaba sleep matches 1 run function tazki:sle
 
 execute if score phantom_of_the_tazkisaba pvp matches 1 run function tazki:pvp_tick
 
-execute unless score phantom_of_the_tazkisaba pvp matches 1 if entity @a[tag=pvp_viewer] run tag @a[tag=pvp_viewer] remove pvp_viewer
-
 #function tazki:warden_bar_tick
 
 #必ず最終行に
