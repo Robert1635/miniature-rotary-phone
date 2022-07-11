@@ -1,0 +1,96 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_sword"
+    },
+    "title": "ゆず5勝",
+    "description": "pvp大会で5回...",
+    "frame": "challenge"
+  },
+  "parent": "tazki:8-1_pvp",
+  "criteria": {
+    "kelp_1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "pvp_won_count": {
+                "min":1
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_2": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "pvp_won_count": {
+                "min":2
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_3": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "pvp_won_count": {
+                "min":3
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_4": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "pvp_won_count": {
+                "min":4
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_5": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "pvp_won_count": {
+                "min":5
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 3000
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_sword"
+    },
+    "title": "明治 北海道十勝 生モッツァレラ",
+    "description": "pvp大会で10回...",
+    "frame": "challenge"
+  },
+  "parent": "tazki:8-2_pvp",
+  "criteria": {
+    "kelp_1": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "pvp_won_count": {
+                "min":1
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_2": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "pvp_won_count": {
+                "min":2
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_3": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "pvp_won_count": {
+                "min":3
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_4": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "pvp_won_count": {
+                "min":4
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_5": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "pvp_won_count": {
+                "min":5
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_6": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "pvp_won_count": {
+                "min":6
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_7": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "pvp_won_count": {
+                "min":7
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_8": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "pvp_won_count": {
+                "min":8
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_9": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "pvp_won_count": {
+                "min":9
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_10": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "pvp_won_count": {
+                "min":10
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 4500
+  }
+}

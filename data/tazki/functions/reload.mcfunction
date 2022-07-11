@@ -4,5 +4,9 @@ function tazki:kelp_reload
 
 function tazki:sleep_reload
 
+function tazki:pvp_reload
+
+#function tazki:warden_bar_reload
+
 #常に最終行に
 scoreboard objectives add login_check minecraft.custom:minecraft.leave_game
