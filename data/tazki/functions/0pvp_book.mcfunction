@@ -3,3 +3,5 @@ give @p written_book{pages:['["",{"text":"\\uff5epvp\\u7528\\u7ba1\\u7406\\u672c
 function tazki:0pvp_ready
 
 give @s oak_button 2
+
+scoreboard players set phantom_of_the_tazkisaba pvp_game 1

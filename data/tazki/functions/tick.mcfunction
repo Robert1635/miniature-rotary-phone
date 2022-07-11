@@ -2,7 +2,7 @@ function tazki:kelp_tick
 
 execute if score phantom_of_the_tazkisaba sleep matches 1 run function tazki:sleep_tick
 
-execute if score phantom_of_the_tazkisaba pvp matches 1 run function tazki:pvp_tick
+execute if score phantom_of_the_tazkisaba pvp_game matches 1 run function tazki:pvp_tick
 
 #function tazki:warden_bar_tick
 
