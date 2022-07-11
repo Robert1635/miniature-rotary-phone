@@ -93,4 +93,4 @@ execute if score phantom_of_the_tazkisaba Surivivor matches 1 run tag @a remove 
 execute if score phantom_of_the_tazkisaba Surivivor matches 1 run tag @a remove pvp09
 execute if score phantom_of_the_tazkisaba Surivivor matches 1 run tag @a remove pvp10
 
-execute if score phantom_of_the_tazkisaba Surivivor matches 1 run tag @a remove surivivor
+execute if score phantom_of_the_tazkisaba Surivivor matches 1 if score phantom_of_the_tazkisaba pvp matches 1 run tag @a remove surivivor
