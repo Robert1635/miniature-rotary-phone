@@ -1,5 +1,7 @@
+#残り生存者の人数カウント用
 execute as @a[tag=pvp_fighter] run tag @s add surivivor
 
+#個別の番号割り当て＆エントリーチケットの回収
 execute as @a[tag=pvp_fighter] unless entity @a[tag=pvp01] run tag @s add pvp01
 execute if entity @a[tag=pvp01] run tag @a[tag=pvp01] remove pvp_fighter
 
