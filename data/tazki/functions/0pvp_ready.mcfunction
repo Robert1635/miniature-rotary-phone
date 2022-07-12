@@ -56,7 +56,9 @@ scoreboard objectives add pvp_10 dummy
 
 scoreboard objectives add Surivivor dummy
 
-
+scoreboard players reset @a rank
+scoreboard players set 生存者の残り体力 rank 30
+scoreboard players set 確定した順位 rank 0
 #bossbar set pvp_01 
 #bossbar set pvp_02 
 #bossbar set pvp_03 

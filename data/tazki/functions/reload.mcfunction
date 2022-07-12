@@ -10,3 +10,6 @@ function tazki:pvp_reload
 
 #常に最終行に
 scoreboard objectives add login_check minecraft.custom:minecraft.leave_game
+
+scoreboard objectives add code dummy
+scoreboard players set phantom_of_the_tazkisaba code -1

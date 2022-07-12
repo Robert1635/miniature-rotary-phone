@@ -33,8 +33,12 @@ tag @a remove pvp09
 tag @a remove pvp10
 
 tag @a remove pvp_fighter
+tag @a remove surivivor
+tag @a remove loser
 
 scoreboard objectives remove Surivivor
+
+team leave @a[team=pvp_rank]
 
 scoreboard players set phantom_of_the_tazkisaba pvp 0
 
