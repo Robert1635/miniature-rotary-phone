@@ -43,23 +43,16 @@ bossbar set pvp_09 color red
 bossbar set pvp_10 color red
 
 
-scoreboard objectives add pvp_01 dummy
-scoreboard objectives add pvp_02 dummy
-scoreboard objectives add pvp_03 dummy
-scoreboard objectives add pvp_04 dummy
-scoreboard objectives add pvp_05 dummy
-scoreboard objectives add pvp_06 dummy
-scoreboard objectives add pvp_07 dummy
-scoreboard objectives add pvp_08 dummy
-scoreboard objectives add pvp_09 dummy
-scoreboard objectives add pvp_10 dummy
+scoreboard objectives add pvp_health dummy
 
 scoreboard objectives add Surivivor dummy
+
+scoreboard objectives add pvp_death deathCount
 
 scoreboard players reset @a rank
 scoreboard players set 生存者の残り体力 rank 30
 scoreboard players set 確定した順位 rank 0
-#bossbar set pvp_01 
+#bossbar set pvp_health 
 #bossbar set pvp_02 
 #bossbar set pvp_03 
 #bossbar set pvp_04 
@@ -68,4 +61,4 @@ scoreboard players set 確定した順位 rank 0
 #bossbar set pvp_07 
 #bossbar set pvp_08 
 #bossbar set pvp_09 
-#bossbar set pvp_10 
+#bossbar set pvp_health 

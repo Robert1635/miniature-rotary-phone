@@ -9,16 +9,9 @@ bossbar remove pvp_08
 bossbar remove pvp_09
 bossbar remove pvp_10
 
-scoreboard objectives remove pvp_01
-scoreboard objectives remove pvp_02
-scoreboard objectives remove pvp_03
-scoreboard objectives remove pvp_04
-scoreboard objectives remove pvp_05
-scoreboard objectives remove pvp_06
-scoreboard objectives remove pvp_07
-scoreboard objectives remove pvp_08
-scoreboard objectives remove pvp_09
-scoreboard objectives remove pvp_10
+scoreboard objectives remove pvp_health
+
+scoreboard objectives remove pvp_death
 
 tag @a remove pvp_viewer
 tag @a remove pvp01
