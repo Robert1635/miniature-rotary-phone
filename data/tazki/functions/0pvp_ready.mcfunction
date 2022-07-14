@@ -50,7 +50,7 @@ scoreboard objectives add Surivivor dummy
 scoreboard objectives add pvp_death deathCount
 
 scoreboard players reset @a rank
-scoreboard players set 生存者の残り体力 rank 30
+scoreboard players set 生存者の残り体力 rank 1000
 scoreboard players set 確定した順位 rank 0
 #bossbar set pvp_health 
 #bossbar set pvp_02 

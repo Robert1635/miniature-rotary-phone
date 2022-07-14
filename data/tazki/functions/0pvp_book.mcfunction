@@ -2,7 +2,7 @@ give @p written_book{pages:['["",{"text":"====PVP====","color":"dark_green"},{"t
 
 function tazki:0pvp_ready
 
-give @s oak_button 2
+give @s heavy_weighted_pressure_plate 2
 
 scoreboard players set phantom_of_the_tazkisaba pvp_game 1
 

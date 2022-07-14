@@ -32,3 +32,5 @@ execute if entity @a[tag=pvp09] run bossbar set pvp_09 players @a[tag=pvp_viewer
 execute if entity @a[tag=pvp10] run bossbar set pvp_10 players @a[tag=pvp_viewer]
 
 scoreboard players set phantom_of_the_tazkisaba pvp 1
+
+gamemode survival @s
