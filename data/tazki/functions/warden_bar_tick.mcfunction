@@ -1,11 +1,31 @@
 #ウォーデンのタグ付け
-execute if entity @e[type=warden,tag=!bar] run tag @e[type=warden,limit=1,tag=!bar] add bar
-execute if entity @e[type=warden,tag=bar,tag=warden1] run execute if entity @e[type=warden,tag=bar,tag=warden2] run execute if entity @e[type=warden,tag=bar,tag=warden3] run execute if entity @e[type=warden,tag=bar,tag=warden4] run execute if entity @e[type=warden,tag=bar,tag=warden5] run execute if entity @e[type=warden,tag=bar,tag=!warden6] run tag @e[type=warden,tag=bar,tag=!warden1,tag=!warden2,tag=!warden3,tag=!warden4,tag=!warden5,tag=!warden6,limit=1] add warden6
-execute if entity @e[type=warden,tag=bar,tag=warden1] run execute if entity @e[type=warden,tag=bar,tag=warden2] run execute if entity @e[type=warden,tag=bar,tag=warden3] run execute if entity @e[type=warden,tag=bar,tag=warden4] run execute if entity @e[type=warden,tag=bar,tag=!warden5] run tag @e[type=warden,tag=bar,tag=!warden1,tag=!warden2,tag=!warden3,tag=!warden4,tag=!warden5,tag=!warden6,limit=1] add warden5
-execute if entity @e[type=warden,tag=bar,tag=warden1] run execute if entity @e[type=warden,tag=bar,tag=warden2] run execute if entity @e[type=warden,tag=bar,tag=warden3] run execute if entity @e[type=warden,tag=bar,tag=!warden4] run tag @e[type=warden,tag=bar,tag=!warden1,tag=!warden2,tag=!warden3,tag=!warden4,tag=!warden5,tag=!warden6,limit=1] add warden4
-execute if entity @e[type=warden,tag=bar,tag=warden1] run execute if entity @e[type=warden,tag=bar,tag=warden2] run execute if entity @e[type=warden,tag=bar,tag=!warden3] run tag @e[type=warden,tag=bar,tag=!warden1,tag=!warden2,tag=!warden3,tag=!warden4,tag=!warden5,tag=!warden6,limit=1] add warden3
-execute if entity @e[type=warden,tag=bar,tag=warden1] run execute if entity @e[type=warden,tag=bar,tag=!warden2] run tag @e[type=warden,tag=bar,tag=!warden1,tag=!warden2,tag=!warden3,tag=!warden4,tag=!warden5,tag=!warden6,limit=1] add warden2
-execute if entity @e[type=warden,tag=bar,tag=!warden1] run tag @e[type=warden,tag=bar,tag=!warden1,tag=!warden2,tag=!warden3,tag=!warden4,tag=!warden5,tag=!warden6,limit=1] add warden1
+#execute if entity @e[type=warden,tag=!bar] run tag @e[type=warden,limit=1,tag=!bar] add bar
+#execute if entity @e[type=warden,tag=bar,tag=warden1] run execute if entity @e[type=warden,tag=bar,tag=warden2] run execute if entity @e[type=warden,tag=bar,tag=warden3] run execute if entity @e[type=warden,tag=bar,tag=warden4] run execute if entity @e[type=warden,tag=bar,tag=warden5] run execute if entity @e[type=warden,tag=bar,tag=!warden6] run tag @e[type=warden,tag=bar,tag=!warden1,tag=!warden2,tag=!warden3,tag=!warden4,tag=!warden5,tag=!warden6,limit=1] add warden6
+#execute if entity @e[type=warden,tag=bar,tag=warden1] run execute if entity @e[type=warden,tag=bar,tag=warden2] run execute if entity @e[type=warden,tag=bar,tag=warden3] run execute if entity @e[type=warden,tag=bar,tag=warden4] run execute if entity @e[type=warden,tag=bar,tag=!warden5] run tag @e[type=warden,tag=bar,tag=!warden1,tag=!warden2,tag=!warden3,tag=!warden4,tag=!warden5,tag=!warden6,limit=1] add warden5
+#execute if entity @e[type=warden,tag=bar,tag=warden1] run execute if entity @e[type=warden,tag=bar,tag=warden2] run execute if entity @e[type=warden,tag=bar,tag=warden3] run execute if entity @e[type=warden,tag=bar,tag=!warden4] run tag @e[type=warden,tag=bar,tag=!warden1,tag=!warden2,tag=!warden3,tag=!warden4,tag=!warden5,tag=!warden6,limit=1] add warden4
+#execute if entity @e[type=warden,tag=bar,tag=warden1] run execute if entity @e[type=warden,tag=bar,tag=warden2] run execute if entity @e[type=warden,tag=bar,tag=!warden3] run tag @e[type=warden,tag=bar,tag=!warden1,tag=!warden2,tag=!warden3,tag=!warden4,tag=!warden5,tag=!warden6,limit=1] add warden3
+#execute if entity @e[type=warden,tag=bar,tag=warden1] run execute if entity @e[type=warden,tag=bar,tag=!warden2] run tag @e[type=warden,tag=bar,tag=!warden1,tag=!warden2,tag=!warden3,tag=!warden4,tag=!warden5,tag=!warden6,limit=1] add warden2
+#execute if entity @e[type=warden,tag=bar,tag=!warden1] run tag @e[type=warden,tag=bar,tag=!warden1,tag=!warden2,tag=!warden3,tag=!warden4,tag=!warden5,tag=!warden6,limit=1] add warden1
+
+#ウォーデンのタグ付け
+execute as @e[type=warden,tag=!event,tag=!bar] unless entity @e[type=warden,tag=warden1] run tag @s add warden1
+execute as @e[type=warden,tag=warden1,tag=!bar] run tag @s add bar
+
+execute as @e[type=warden,tag=!event,tag=!bar] unless entity @e[type=warden,tag=warden2] run tag @s add warden2
+execute as @e[type=warden,tag=warden2,tag=!bar] run tag @s add bar
+
+execute as @e[type=warden,tag=!event,tag=!bar] unless entity @e[type=warden,tag=warden3] run tag @s add warden3
+execute as @e[type=warden,tag=warden3,tag=!bar] run tag @s add bar
+
+execute as @e[type=warden,tag=!event,tag=!bar] unless entity @e[type=warden,tag=warden4] run tag @s add warden4
+execute as @e[type=warden,tag=warden4,tag=!bar] run tag @s add bar
+
+execute as @e[type=warden,tag=!event,tag=!bar] unless entity @e[type=warden,tag=warden5] run tag @s add warden5
+execute as @e[type=warden,tag=warden5,tag=!bar] run tag @s add bar
+
+execute as @e[type=warden,tag=!event,tag=!bar] unless entity @e[type=warden,tag=warden6] run tag @s add warden6
+execute as @e[type=warden,tag=warden6,tag=!bar] run tag @s add bar
+
 
 #ウォーデンのバー表示条件
 execute if entity @e[type=warden,tag=warden1] run execute as @e[type=warden,tag=warden1] at @s run bossbar set warden_1 players @a[distance=0..200,predicate=tazki:in_deep]

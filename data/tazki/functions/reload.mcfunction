@@ -4,7 +4,7 @@ function tazki:kelp_reload
 
 function tazki:sleep_reload
 
-function tazki:pvp_reload
+function tazki:pvp/reload
 
 #function tazki:warden_bar_reload
 
