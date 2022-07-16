@@ -10,7 +10,7 @@
     "parent": "tazki:5-1-1-1-1_warden_5",
     "rewards": {
       "experience": 400000,
-      "function": "tazki:give600diamond"
+      "function": "tazki:give_diamond/give600diamond"
     },
     "criteria": {
       "1": {
