@@ -1,6 +1,6 @@
 #出場者のタグ付け(pvp_fighterが付くことでエントリー完了)&出場者に観客と同じ権限の付与
 execute as @a[tag=pvp_fighter] run tag @s add pvp_viewer
-execute if entity @a[tag=pvp_fighter] run function tazki:pvp_fighter_sort
+execute if entity @a[tag=pvp_fighter] run function tazki:pvp/fighter_sort
 
 #スコアボードと残り体力との同期
 execute store result score @a[tag=pvp01] pvp_health run data get entity @a[tag=pvp01,limit=1] Health
