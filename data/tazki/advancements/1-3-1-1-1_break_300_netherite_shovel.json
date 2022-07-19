@@ -1,0 +1,586 @@
+{
+  "display": {
+    "title": "残骸の無駄遣い",
+    "description": "ネザライトのシャベルを300個...",
+    "frame": "challenge",
+    "icon": {
+      "item": "minecraft:netherite_shovel"
+    }
+  },
+  "parent": "tazki:1-3-1-1_break_300_diamond_shovel",
+  "rewards": {
+    "experience": 3000
+  },
+  "criteria": {
+    "10": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:netherite_shovel",
+                "value": {
+                  "min": 10
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "20": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:netherite_shovel",
+                "value": {
+                  "min": 20
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "30": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:netherite_shovel",
+                "value": {
+                  "min": 30
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "40": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:netherite_shovel",
+                "value": {
+                  "min": 40
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "50": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:netherite_shovel",
+                "value": {
+                  "min": 50
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "60": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:netherite_shovel",
+                "value": {
+                  "min": 60
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "70": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:netherite_shovel",
+                "value": {
+                  "min": 70
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "80": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:netherite_shovel",
+                "value": {
+                  "min": 80
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "90": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:netherite_shovel",
+                "value": {
+                  "min": 90
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "100": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:netherite_shovel",
+                "value": {
+                  "min": 100
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "110": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:netherite_shovel",
+                "value": {
+                  "min": 110
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "120": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:netherite_shovel",
+                "value": {
+                  "min": 120
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "130": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:netherite_shovel",
+                "value": {
+                  "min": 130
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "140": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:netherite_shovel",
+                "value": {
+                  "min": 140
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "150": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:netherite_shovel",
+                "value": {
+                  "min": 150
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "160": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:netherite_shovel",
+                "value": {
+                  "min": 160
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "170": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:netherite_shovel",
+                "value": {
+                  "min": 170
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "180": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:netherite_shovel",
+                "value": {
+                  "min": 180
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "190": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:netherite_shovel",
+                "value": {
+                  "min": 190
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "200": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:netherite_shovel",
+                "value": {
+                  "min": 200
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "210": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:netherite_shovel",
+                "value": {
+                  "min": 210
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "220": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:netherite_shovel",
+                "value": {
+                  "min": 220
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "230": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:netherite_shovel",
+                "value": {
+                  "min": 230
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "240": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:netherite_shovel",
+                "value": {
+                  "min": 240
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "250": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:netherite_shovel",
+                "value": {
+                  "min": 250
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "260": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:netherite_shovel",
+                "value": {
+                  "min": 260
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "270": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:netherite_shovel",
+                "value": {
+                  "min": 270
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "280": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:netherite_shovel",
+                "value": {
+                  "min": 280
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "290": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:netherite_shovel",
+                "value": {
+                  "min": 290
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    "300": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "type_specific": {
+            "type": "player",
+            "stats": [
+              {
+                "type": "minecraft:broken",
+                "stat": "minecraft:netherite_shovel",
+                "value": {
+                  "min": 300
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}
