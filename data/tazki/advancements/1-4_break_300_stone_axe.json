@@ -1,7 +1,7 @@
 {
   "display": {
-    "title": "土ですか? 砂ですか?",
-    "description": "石のシャベルを300個...",
+    "title": "Oh, no!",
+    "description": "石の斧を300個...",
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
@@ -23,7 +23,7 @@
             "stats": [
               {
                 "type": "minecraft:broken",
-                "stat": "minecraft:stone_shovel",
+                "stat": "minecraft:stone_axe",
                 "value": {
                   "min": 10
                 }
@@ -42,7 +42,7 @@
             "stats": [
               {
                 "type": "minecraft:broken",
-                "stat": "minecraft:stone_shovel",
+                "stat": "minecraft:stone_axe",
                 "value": {
                   "min": 20
                 }
@@ -61,7 +61,7 @@
             "stats": [
               {
                 "type": "minecraft:broken",
-                "stat": "minecraft:stone_shovel",
+                "stat": "minecraft:stone_axe",
                 "value": {
                   "min": 30
                 }
@@ -80,7 +80,7 @@
             "stats": [
               {
                 "type": "minecraft:broken",
-                "stat": "minecraft:stone_shovel",
+                "stat": "minecraft:stone_axe",
                 "value": {
                   "min": 40
                 }
@@ -99,7 +99,7 @@
             "stats": [
               {
                 "type": "minecraft:broken",
-                "stat": "minecraft:stone_shovel",
+                "stat": "minecraft:stone_axe",
                 "value": {
                   "min": 50
                 }
@@ -118,7 +118,7 @@
             "stats": [
               {
                 "type": "minecraft:broken",
-                "stat": "minecraft:stone_shovel",
+                "stat": "minecraft:stone_axe",
                 "value": {
                   "min": 60
                 }
@@ -137,7 +137,7 @@
             "stats": [
               {
                 "type": "minecraft:broken",
-                "stat": "minecraft:stone_shovel",
+                "stat": "minecraft:stone_axe",
                 "value": {
                   "min": 70
                 }
@@ -156,7 +156,7 @@
             "stats": [
               {
                 "type": "minecraft:broken",
-                "stat": "minecraft:stone_shovel",
+                "stat": "minecraft:stone_axe",
                 "value": {
                   "min": 80
                 }
@@ -175,7 +175,7 @@
             "stats": [
               {
                 "type": "minecraft:broken",
-                "stat": "minecraft:stone_shovel",
+                "stat": "minecraft:stone_axe",
                 "value": {
                   "min": 90
                 }
@@ -194,7 +194,7 @@
             "stats": [
               {
                 "type": "minecraft:broken",
-                "stat": "minecraft:stone_shovel",
+                "stat": "minecraft:stone_axe",
                 "value": {
                   "min": 100
                 }
@@ -213,7 +213,7 @@
             "stats": [
               {
                 "type": "minecraft:broken",
-                "stat": "minecraft:stone_shovel",
+                "stat": "minecraft:stone_axe",
                 "value": {
                   "min": 110
                 }
@@ -232,7 +232,7 @@
             "stats": [
               {
                 "type": "minecraft:broken",
-                "stat": "minecraft:stone_shovel",
+                "stat": "minecraft:stone_axe",
                 "value": {
                   "min": 120
                 }
@@ -251,7 +251,7 @@
             "stats": [
               {
                 "type": "minecraft:broken",
-                "stat": "minecraft:stone_shovel",
+                "stat": "minecraft:stone_axe",
                 "value": {
                   "min": 130
                 }
@@ -270,7 +270,7 @@
             "stats": [
               {
                 "type": "minecraft:broken",
-                "stat": "minecraft:stone_shovel",
+                "stat": "minecraft:stone_axe",
                 "value": {
                   "min": 140
                 }
@@ -289,7 +289,7 @@
             "stats": [
               {
                 "type": "minecraft:broken",
-                "stat": "minecraft:stone_shovel",
+                "stat": "minecraft:stone_axe",
                 "value": {
                   "min": 150
                 }
@@ -308,7 +308,7 @@
             "stats": [
               {
                 "type": "minecraft:broken",
-                "stat": "minecraft:stone_shovel",
+                "stat": "minecraft:stone_axe",
                 "value": {
                   "min": 160
                 }
@@ -327,7 +327,7 @@
             "stats": [
               {
                 "type": "minecraft:broken",
-                "stat": "minecraft:stone_shovel",
+                "stat": "minecraft:stone_axe",
                 "value": {
                   "min": 170
                 }
@@ -346,7 +346,7 @@
             "stats": [
               {
                 "type": "minecraft:broken",
-                "stat": "minecraft:stone_shovel",
+                "stat": "minecraft:stone_axe",
                 "value": {
                   "min": 180
                 }
@@ -365,7 +365,7 @@
             "stats": [
               {
                 "type": "minecraft:broken",
-                "stat": "minecraft:stone_shovel",
+                "stat": "minecraft:stone_axe",
                 "value": {
                   "min": 190
                 }
@@ -384,7 +384,7 @@
             "stats": [
               {
                 "type": "minecraft:broken",
-                "stat": "minecraft:stone_shovel",
+                "stat": "minecraft:stone_axe",
                 "value": {
                   "min": 200
                 }
@@ -403,7 +403,7 @@
             "stats": [
               {
                 "type": "minecraft:broken",
-                "stat": "minecraft:stone_shovel",
+                "stat": "minecraft:stone_axe",
                 "value": {
                   "min": 210
                 }
@@ -422,7 +422,7 @@
             "stats": [
               {
                 "type": "minecraft:broken",
-                "stat": "minecraft:stone_shovel",
+                "stat": "minecraft:stone_axe",
                 "value": {
                   "min": 220
                 }
@@ -441,7 +441,7 @@
             "stats": [
               {
                 "type": "minecraft:broken",
-                "stat": "minecraft:stone_shovel",
+                "stat": "minecraft:stone_axe",
                 "value": {
                   "min": 230
                 }
@@ -460,7 +460,7 @@
             "stats": [
               {
                 "type": "minecraft:broken",
-                "stat": "minecraft:stone_shovel",
+                "stat": "minecraft:stone_axe",
                 "value": {
                   "min": 240
                 }
@@ -479,7 +479,7 @@
             "stats": [
               {
                 "type": "minecraft:broken",
-                "stat": "minecraft:stone_shovel",
+                "stat": "minecraft:stone_axe",
                 "value": {
                   "min": 250
                 }
@@ -498,7 +498,7 @@
             "stats": [
               {
                 "type": "minecraft:broken",
-                "stat": "minecraft:stone_shovel",
+                "stat": "minecraft:stone_axe",
                 "value": {
                   "min": 260
                 }
@@ -517,7 +517,7 @@
             "stats": [
               {
                 "type": "minecraft:broken",
-                "stat": "minecraft:stone_shovel",
+                "stat": "minecraft:stone_axe",
                 "value": {
                   "min": 270
                 }
@@ -536,7 +536,7 @@
             "stats": [
               {
                 "type": "minecraft:broken",
-                "stat": "minecraft:stone_shovel",
+                "stat": "minecraft:stone_axe",
                 "value": {
                   "min": 280
                 }
@@ -555,7 +555,7 @@
             "stats": [
               {
                 "type": "minecraft:broken",
-                "stat": "minecraft:stone_shovel",
+                "stat": "minecraft:stone_axe",
                 "value": {
                   "min": 290
                 }
@@ -574,7 +574,7 @@
             "stats": [
               {
                 "type": "minecraft:broken",
-                "stat": "minecraft:stone_shovel",
+                "stat": "minecraft:stone_axe",
                 "value": {
                   "min": 300
                 }
