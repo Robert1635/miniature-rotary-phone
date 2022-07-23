@@ -7,5 +7,7 @@ execute if score phantom_of_the_tazkisaba pvp_game matches 1 run function tazki:
 
 #function tazki:warden_bar_tick
 
+function tazki:iron_tick
+
 #必ず最終行に
 execute if entity @a[scores={login_check=1..}] run scoreboard players set @a[scores={login_check=1..}] login_check 0

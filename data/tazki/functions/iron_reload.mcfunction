@@ -1,0 +1,9 @@
+scoreboard objectives add iron_ore_mine minecraft.mined:minecraft.iron_ore
+scoreboard objectives add deep_iron_ore_mine minecraft.mined:minecraft.deepslate_iron_ore
+scoreboard objectives add raw_iron_block_mined minecraft.mined:minecraft.raw_iron_block
+scoreboard objectives add raw_iron_block_mined_check minecraft.mined:minecraft.raw_iron_block
+scoreboard objectives add raw_iron_block_used_check minecraft.used:minecraft.raw_iron_block
+scoreboard objectives add raw_iron_block_used dummy
+scoreboard objectives add raw_iron_block_check dummy
+scoreboard objectives add iron_mine_count dummy
+scoreboard objectives add raw_iron_block_operate dummy
