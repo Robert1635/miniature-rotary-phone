@@ -9,7 +9,7 @@
   },
   "parent": "tazki:7-3_kelp",
   "criteria": {
-    "kelp_1": {
+    "100": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -25,7 +25,7 @@
         ]
       }
     },
-    "kelp_2": {
+    "200": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -41,7 +41,7 @@
         ]
       }
     },
-    "kelp_3": {
+    "300": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -57,7 +57,7 @@
         ]
       }
     },
-    "kelp_4": {
+    "400": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -73,7 +73,7 @@
         ]
       }
     },
-    "kelp_5": {
+    "500": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -89,7 +89,7 @@
         ]
       }
     },
-    "kelp_6": {
+    "600": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -105,7 +105,7 @@
         ]
       }
     },
-    "kelp_7": {
+    "700": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -121,7 +121,7 @@
         ]
       }
     },
-    "kelp_8": {
+    "800": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -137,7 +137,7 @@
         ]
       }
     },
-    "kelp_9": {
+    "900": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -153,7 +153,7 @@
         ]
       }
     },
-    "kelp_10": {
+    "1000": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -169,7 +169,7 @@
         ]
       }
     },
-    "kelp_11": {
+    "1100": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -185,7 +185,7 @@
         ]
       }
     },
-    "kelp_12": {
+    "1200": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -201,7 +201,7 @@
         ]
       }
     },
-    "kelp_13": {
+    "1300": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -217,7 +217,7 @@
         ]
       }
     },
-    "kelp_14": {
+    "1400": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -233,7 +233,7 @@
         ]
       }
     },
-    "kelp_15": {
+    "1500": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -249,7 +249,7 @@
         ]
       }
     },
-    "kelp_16": {
+    "1600": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -265,7 +265,7 @@
         ]
       }
     },
-    "kelp_17": {
+    "1700": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -281,7 +281,7 @@
         ]
       }
     },
-    "kelp_18": {
+    "1800": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -297,7 +297,7 @@
         ]
       }
     },
-    "kelp_19": {
+    "1900": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -313,7 +313,7 @@
         ]
       }
     },
-    "kelp_20": {
+    "2000": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -329,7 +329,7 @@
         ]
       }
     },
-    "kelp_21": {
+    "2100": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -345,7 +345,7 @@
         ]
       }
     },
-    "kelp_22": {
+    "2200": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -361,7 +361,7 @@
         ]
       }
     },
-    "kelp_23": {
+    "2300": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -377,7 +377,7 @@
         ]
       }
     },
-    "kelp_24": {
+    "2400": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -393,7 +393,7 @@
         ]
       }
     },
-    "kelp_25": {
+    "2500": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -409,7 +409,7 @@
         ]
       }
     },
-    "kelp_26": {
+    "2600": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -425,7 +425,7 @@
         ]
       }
     },
-    "kelp_27": {
+    "2700": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -441,7 +441,7 @@
         ]
       }
     },
-    "kelp_28": {
+    "2800": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -457,7 +457,7 @@
         ]
       }
     },
-    "kelp_29": {
+    "2900": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -473,7 +473,7 @@
         ]
       }
     },
-    "kelp_30": {
+    "3000": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -489,7 +489,7 @@
         ]
       }
     },
-    "kelp_31": {
+    "3100": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -505,7 +505,7 @@
         ]
       }
     },
-    "kelp_32": {
+    "3200": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -521,7 +521,7 @@
         ]
       }
     },
-    "kelp_33": {
+    "3300": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -537,7 +537,7 @@
         ]
       }
     },
-    "kelp_34": {
+    "3400": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -553,7 +553,7 @@
         ]
       }
     },
-    "kelp_35": {
+    "3500": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -569,7 +569,7 @@
         ]
       }
     },
-    "kelp_36": {
+    "3600": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -585,7 +585,7 @@
         ]
       }
     },
-    "kelp_37": {
+    "3700": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -601,7 +601,7 @@
         ]
       }
     },
-    "kelp_38": {
+    "3800": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -617,7 +617,7 @@
         ]
       }
     },
-    "kelp_39": {
+    "3900": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -633,7 +633,7 @@
         ]
       }
     },
-    "kelp_40": {
+    "4000": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -649,7 +649,7 @@
         ]
       }
     },
-    "kelp_41": {
+    "4100": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -665,7 +665,7 @@
         ]
       }
     },
-    "kelp_42": {
+    "4200": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -681,7 +681,7 @@
         ]
       }
     },
-    "kelp_43": {
+    "4300": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -697,7 +697,7 @@
         ]
       }
     },
-    "kelp_44": {
+    "4400": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -713,7 +713,7 @@
         ]
       }
     },
-    "kelp_45": {
+    "4500": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -729,7 +729,7 @@
         ]
       }
     },
-    "kelp_46": {
+    "4600": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -745,7 +745,7 @@
         ]
       }
     },
-    "kelp_47": {
+    "4700": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -761,7 +761,7 @@
         ]
       }
     },
-    "kelp_48": {
+    "4800": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -777,7 +777,7 @@
         ]
       }
     },
-    "kelp_49": {
+    "4900": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -793,7 +793,7 @@
         ]
       }
     },
-    "kelp_50": {
+    "5000": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [

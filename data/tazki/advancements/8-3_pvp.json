@@ -9,7 +9,7 @@
   },
   "parent": "tazki:8-2_pvp",
   "criteria": {
-    "kelp_1": {
+    "pvp_1": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -25,7 +25,7 @@
         ]
       }
     },
-    "kelp_2": {
+    "pvp_2": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -41,7 +41,7 @@
         ]
       }
     },
-    "kelp_3": {
+    "pvp_3": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -57,7 +57,7 @@
         ]
       }
     },
-    "kelp_4": {
+    "pvp_4": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -73,7 +73,7 @@
         ]
       }
     },
-    "kelp_5": {
+    "pvp_5": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -89,7 +89,7 @@
         ]
       }
     },
-    "kelp_6": {
+    "pvp_6": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -105,7 +105,7 @@
         ]
       }
     },
-    "kelp_7": {
+    "pvp_7": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -121,7 +121,7 @@
         ]
       }
     },
-    "kelp_8": {
+    "pvp_8": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -137,7 +137,7 @@
         ]
       }
     },
-    "kelp_9": {
+    "pvp_9": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -153,7 +153,7 @@
         ]
       }
     },
-    "kelp_10": {
+    "pvp_10": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [

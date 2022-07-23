@@ -3,13 +3,13 @@
     "icon": {
       "item": "minecraft:kelp"
     },
-    "title": "鯖が軽くなってみんなよろ昆布",
+    "title": "鯖が軽くなってみんなヨロこんぶ",
     "description": "昆布を根こそぎ10000本...",
     "frame": "challenge"
   },
   "parent": "tazki:7-4_kelp",
   "criteria": {
-    "kelp_1": {
+    "1000": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -25,7 +25,7 @@
         ]
       }
     },
-    "kelp_2": {
+    "2000": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -41,7 +41,7 @@
         ]
       }
     },
-    "kelp_3": {
+    "3000": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -57,7 +57,7 @@
         ]
       }
     },
-    "kelp_4": {
+    "4000": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -73,7 +73,7 @@
         ]
       }
     },
-    "kelp_5": {
+    "5000": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -89,7 +89,7 @@
         ]
       }
     },
-    "kelp_6": {
+    "6000": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -105,7 +105,7 @@
         ]
       }
     },
-    "kelp_7": {
+    "7000": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -121,7 +121,7 @@
         ]
       }
     },
-    "kelp_8": {
+    "8000": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -137,7 +137,7 @@
         ]
       }
     },
-    "kelp_9": {
+    "9000": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -153,7 +153,7 @@
         ]
       }
     },
-    "kelp_10": {
+    "10000": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [

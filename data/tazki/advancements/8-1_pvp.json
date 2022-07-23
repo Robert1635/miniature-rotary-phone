@@ -9,7 +9,7 @@
   },
   "parent": "tazki:root",
   "criteria": {
-    "kelp_1": {
+    "pvp_1": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
