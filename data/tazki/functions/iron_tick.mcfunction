@@ -15,7 +15,7 @@ execute as @a[scores={raw_iron_block_used_check=1..},gamemode=!creative] run sco
 
 #原石ブロックを掘った回数が置いた回数を上回ったことの検知
 execute store result score @a[scores={raw_iron_block_mined_check=1..}] raw_iron_block_operate run scoreboard players get @a[scores={raw_iron_block_mined_check=1..},limit=1] raw_iron_block_mined
-execute as @a[scores={raw_iron_block_mined_check=1..}] run execute store result score @s raw_iron_block_check run scoreboard players operation @s raw_iron_block_operate -= @s raw_iron_block_used
+execute as @a[scores={raw_iron_block_mined_check=1..}] run scoreboard players operation @s raw_iron_block_operate -= @s raw_iron_block_used
 
 
 #上回っていた場合、9個の原石を採掘したことにする
@@ -24,8 +24,6 @@ execute as @a[scores={raw_iron_block_operate=1..}] run scoreboard players add @s
 #カウント用のスコアボードリセット
 scoreboard players set @a[scores={iron_ore_mine=1..}] iron_ore_mine 0
 scoreboard players set @a[scores={deep_iron_ore_mine=1..}] deep_iron_ore_mine 0
-scoreboard players set @a[scores={raw_iron_block_used_check=1..}] raw_iron_block_check 0
 scoreboard players set @a[scores={raw_iron_block_mined_check=1..}] raw_iron_block_mined_check 0
 scoreboard players set @a[scores={raw_iron_block_used_check=1..}] raw_iron_block_used_check 0
-scoreboard players set @a[scores={raw_iron_block_check=1..}] raw_iron_block_check 0
 scoreboard players set @a[scores={raw_iron_block_operate=1..}] raw_iron_block_operate 0

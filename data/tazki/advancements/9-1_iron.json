@@ -4,7 +4,7 @@
         "item": "minecraft:iron_ingot"
       },
       "title": "鉄万達成!!",
-      "description": "鉄鉱石をインゴット10000個分...",
+      "description": "鉄を原石10000個分...",
       "frame": "challenge",
       "show_toast": true
     },

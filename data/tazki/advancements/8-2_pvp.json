@@ -9,7 +9,7 @@
   },
   "parent": "tazki:8-1_pvp",
   "criteria": {
-    "pvp_1": {
+    "kelp_1": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -25,7 +25,7 @@
         ]
       }
     },
-    "pvp_2": {
+    "kelp_2": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -41,7 +41,7 @@
         ]
       }
     },
-    "pvp_3": {
+    "kelp_3": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -57,7 +57,7 @@
         ]
       }
     },
-    "pvp_4": {
+    "kelp_4": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -73,7 +73,7 @@
         ]
       }
     },
-    "pvp_5": {
+    "kelp_5": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [

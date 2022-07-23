@@ -12,7 +12,7 @@
     "experience": 20000
   },
   "criteria": {
-    "1": {
+    "10": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": {
