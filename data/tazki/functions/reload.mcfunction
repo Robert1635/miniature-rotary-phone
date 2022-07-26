@@ -6,7 +6,7 @@ function tazki:sleep_reload
 
 function tazki:pvp/reload
 
-#function tazki:warden_bar_reload
+function tazki:warden_bar_reload
 
 function tazki:iron_reload
 

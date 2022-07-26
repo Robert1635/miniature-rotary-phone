@@ -5,7 +5,7 @@ execute if score phantom_of_the_tazkisaba sleep matches 1 run function tazki:sle
 #pvp_gameが1の時にpvp機能が有効になる
 execute if score phantom_of_the_tazkisaba pvp_game matches 1 run function tazki:pvp/tick
 
-#function tazki:warden_bar_tick
+function tazki:warden_bar_tick
 
 function tazki:iron_tick
 
