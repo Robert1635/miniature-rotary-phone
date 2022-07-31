@@ -1,0 +1,208 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:kelp"
+    },
+    "title": "日本の昆布の漁獲量は年間12万トンです。",
+    "description": "昆布を120000個...",
+    "frame": "challenge"
+  },
+  "parent": "tazki:10-5_kelp_pickup",
+  "criteria": {
+    "kelp_picked_up_10000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":10000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_20000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":20000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_30000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":30000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_40000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":40000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_50000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":50000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_60000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":60000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_70000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":70000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_80000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":80000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_90000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":90000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_100000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":100000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_110000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":110000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_120000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":120000
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1500
+  }
+}

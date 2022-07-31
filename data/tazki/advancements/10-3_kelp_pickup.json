@@ -1,0 +1,176 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:kelp"
+    },
+    "title": "昆布には食物繊維・ヨウ素・カルシウムなどが豊富に含まれています。",
+    "description": "昆布を10000個...",
+    "frame": "challenge"
+  },
+  "parent": "tazki:10-2_kelp_pickup",
+  "criteria": {
+    "kelp_picked_up_1000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":1000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_2000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":2000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_3000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":3000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_4000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":4000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_5000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":5000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_6000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":6000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_7000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":7000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_8000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":8000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_9000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":9000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_10000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":10000
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 2500
+  }
+}

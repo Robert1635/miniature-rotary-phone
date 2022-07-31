@@ -1,0 +1,336 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:kelp"
+    },
+    "title": "昆布に含まれる鉄分は牛乳の約39倍です。",
+    "description": "昆布を20000個...",
+    "frame": "challenge"
+  },
+  "parent": "tazki:10-3_kelp_pickup",
+  "criteria": {
+    "kelp_picked_up_1000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":1000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_2000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":2000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_3000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":3000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_4000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":4000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_5000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":5000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_6000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":6000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_7000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":7000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_8000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":8000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_9000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":9000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_10000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":10000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_11000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":11000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_12000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":12000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_13000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":13000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_14000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":14000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_15000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":15000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_16000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":16000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_17000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":17000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_18000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":18000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_19000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":19000
+              }
+            }
+          }
+        ]
+      }
+    },
+    "kelp_picked_up_20000": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "kelp_picked_up": {
+                "min":20000
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 3000
+  }
+}
