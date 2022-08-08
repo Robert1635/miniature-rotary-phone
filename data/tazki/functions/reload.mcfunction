@@ -10,6 +10,8 @@ function tazki:warden_bar_reload
 
 function tazki:iron_reload
 
+function tazki:timer/timer_reload
+
 #常に最終行に
 scoreboard objectives add login_check minecraft.custom:minecraft.leave_game
 
