@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:clock"
+    },
+    "title": "カップ麺できましたよ(ちなみに私は3分待たない派です)",
+    "description": "VCで3分会話をすると...",
+    "frame": "challenge"
+  },
+  "parent": "tazki:13-1_discord_vc_time",
+  "criteria": {
+    "vc_3m": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "discord_vc_time": {
+                "min":180
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 3000
+  }
+}

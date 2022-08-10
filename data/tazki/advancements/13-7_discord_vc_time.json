@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:clock"
+    },
+    "title": "つまり48時間VCにいたってことか",
+    "description": "VCで合計48時間会話をすると...",
+    "frame": "challenge"
+  },
+  "parent": "tazki:13-5_discord_vc_time",
+  "criteria": {
+    "vc_24h": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "discord_vc_time": {
+                "min":172800
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 15000
+  }
+}
