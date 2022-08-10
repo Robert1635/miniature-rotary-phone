@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:observer"
+    },
+    "title": "ねぇ、にあ",
+    "description": "DiscordでNEARに3回...",
+    "frame": "challenge"
+  },
+  "parent": "tazki:11_5_discord",
+  "criteria": {
+    "reply3": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "discord_near_reply": {
+                "min":3
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1500
+  }
+}
