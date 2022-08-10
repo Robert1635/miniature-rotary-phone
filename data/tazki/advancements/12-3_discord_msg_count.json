@@ -4,7 +4,7 @@
       "item": "minecraft:writable_book"
     },
     "title": "チャットマスター",
-    "description": "文字でコミュニケーションを200回...",
+    "description": "文字でコミュニケーションを200回...\n達成報酬: 鯖主の頭",
     "frame": "challenge"
   },
   "parent": "tazki:12-2_discord_msg_count",
