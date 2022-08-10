@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:writable_book"
+    },
+    "title": "チャットマスター",
+    "description": "文字でコミュニケーションを200回...",
+    "frame": "challenge"
+  },
+  "parent": "tazki:12-2_discord_msg_count",
+  "criteria": {
+    "msg200": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "discord_msg_count": {
+                "min":200
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 4500,
+    "function": "tazki:rewards/tazkiiiii_heads"
+  }
+}
