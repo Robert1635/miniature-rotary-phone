@@ -1,0 +1,17 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:oak_sign"
+      },
+      "title": "Discordのすゝめ",
+      "description": "Discordを使ってたつき鯖をもっと楽しもう!!",
+      "frame": "challenge"
+    },
+    "parent": "tazki:root",
+    "criteria": {
+      "a": {
+        "trigger": "impossible"
+    }
+  }
+}
+  
